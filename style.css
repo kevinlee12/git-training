@@ -1,0 +1,82 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    border: none;
+}
+
+.background {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 2000px;
+}
+
+#welcome {
+    position: relative;
+    top: 25%;
+    z-index: 10;
+    text-align: center;
+    color: white;
+}
+
+#big {
+    font-size: 50px;
+    display: inline-block;
+}
+
+#subtitle {
+    font-size: 30px;
+    overflow: hidden;
+}
+
+#overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#task1 {
+    height: 2000px;
+    background-color: #D9E9FF;
+}
+
+ol ul {
+    list-style-type: circle !important;
+}
+
+#rules {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+}
+
+#task2 {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+h2.two {
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+}
+#tasksfor2 {
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+}
