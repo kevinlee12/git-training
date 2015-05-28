@@ -48,8 +48,13 @@ html {
     background-color: #D9E9FF;
 }
 
-ol ul {
-    list-style-type: circle !important;
+#tasks {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    position: relative;
+    text-align: left;
+    font-size: 24px
 }
 
 #rules {
@@ -62,21 +67,23 @@ ol ul {
     padding-top: 20px;
 }
 
+#task1 {
+    padding-top: 20px;
+    position: relative;
+    text-align: left;
+    font-size: 24px;
+}
 
-
-
-
-
-
-
-
-h2.two {
+h2 {
     position: relative;
     text-align: center;
     font-size: 36px;
 }
-#tasksfor2 {
+
+img {
     position: relative;
-    text-align: left;
-    font-size: 24px;
+    text-align: center;
+    bottom: 0px;
+    width: 360px;
+    height: 360px;
 }
